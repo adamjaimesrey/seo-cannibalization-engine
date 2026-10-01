@@ -131,6 +131,12 @@ SPEC.md         design specification
 
 ---
 
+## Sister project
+
+Pages this pipeline flags as thin or superseded are only part of the picture. Its sister pipeline, [BFCM GEO Engine](https://github.com/adamjaimesrey/bfcm-geo-engine), scores how easily AI search engines can extract answers from blog content and generates paste-ready edit briefs.
+
+---
+
 ## About
 
 Built by Adam Jaimes Rey, SEO and GEO consultant.
