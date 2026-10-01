@@ -1,0 +1,47 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# OS
+.DS_Store
+
+# Client data exports — do not commit
+data/raw/*
+data/processed/*
+
+# Generated output
+output/*.html
+
+# Keep empty folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!output/.gitkeep
+
+# Demo files copied from sample_data/ by scripts/run_demo.sh (and demo-generated reference output)
+reference/url-page-type-map.csv
+reference/semji-focus-keywords.csv
+reference/edit-lists.json
+reference/remediation-briefs.json
+reference/blog-intent-classification.csv
+reference/blog_articles/Best Cordless Vacuum Cleaners - A Buyers Guide.txt
+reference/blog_articles/How to Descale a Steam Iron.txt
+reference/blog_articles/How to Clean a Fan.txt
+data/edit-history/blog-edit-history.xlsx
+
+# Claude Code installed skills (third-party, re-fetchable)
+.agents/
+skills-lock.json
+
+# Generated edit-list docs (regenerable from reference/edit-lists.json)
+output/edit-lists/
+
+# Generated Content Brief paste files (regenerable)
+output/content-brief-rows-*.xlsx
+
+# Local-only leak-check deny list: contains client terms, NEVER commit
+.leakcheck-denylist.txt

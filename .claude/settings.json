@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(mkdir:*)",
+      "Bash(python3:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Read(*)",
+      "Edit(*)",
+      "Write(*)"
+    ],
+    "deny": [
+      "Bash(rm:*)",
+      "Bash(pip install:*)",
+      "Bash(pip3 install:*)",
+      "Read(.env)"
+    ]
+  }
+}

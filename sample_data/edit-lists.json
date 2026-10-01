@@ -1,0 +1,155 @@
+[
+  {
+    "rank": 1,
+    "blog_slug": "best-cordless-vacuum-cleaner-guide",
+    "blog_url": "https://ecomusa.example/blog/post/best-cordless-vacuum-cleaner-guide",
+    "blog_copy_file": "reference/blog_articles/Best Cordless Vacuum Cleaners - A Buyers Guide.txt",
+    "commercial_url": "https://ecomusa.example/collections/cordless-vacuums",
+    "commercial_page_type": "plp",
+    "route": "refocus",
+    "old_focus_kw": "best cordless vacuum cleaner",
+    "new_focus_kw": "how to choose a cordless vacuum cleaner",
+    "focus_prompt": "What should I look for when choosing a cordless vacuum cleaner for my home?",
+    "fan_outs": [
+      "how much suction does a cordless vacuum need",
+      "how long should a cordless vacuum battery last",
+      "cordless vs corded vacuum for pet hair",
+      "what weight is comfortable for a stick vacuum"
+    ],
+    "entities": [
+      "suction power (air watts)",
+      "battery runtime",
+      "HEPA filtration",
+      "dustbin capacity",
+      "floor type"
+    ],
+    "edits": [
+      {
+        "number": 1,
+        "kind": "metadata",
+        "label": "Meta title",
+        "where": "Semji field: Title 1",
+        "current": "Best Cordless Vacuum Cleaners for 2026 | Ecommerce",
+        "replace_with": "How to Choose a Cordless Vacuum Cleaner | Ecommerce",
+        "why": "Moves the page away from the commercial head term the collection page targets.",
+        "semji_field": "Title 1"
+      },
+      {
+        "number": 2,
+        "kind": "metadata",
+        "label": "Meta description",
+        "where": "Semji field: Meta Description 1",
+        "current": "Compare cordless vacuum cleaners for suction power, battery life and weight, with simple picks for small homes and pet owners.",
+        "replace_with": "Learn how to choose a cordless vacuum cleaner: suction power, battery runtime, dustbin size and weight explained for small homes and pet owners.",
+        "why": "Matches the informational new focus and the query fan-outs.",
+        "semji_field": "Meta Description 1"
+      },
+      {
+        "number": 3,
+        "kind": "replace",
+        "label": "H1",
+        "where": "Top of page",
+        "current": "Best Cordless Vacuum Cleaners: A Buyers Guide",
+        "replace_with": "How to Choose a Cordless Vacuum Cleaner: A Buyers Guide",
+        "why": "H1 states the new informational focus."
+      },
+      {
+        "number": 4,
+        "kind": "replace",
+        "label": "Intro",
+        "where": "First paragraph",
+        "current": "Looking for the best cordless vacuum cleaner? This guide covers what matters most before you buy, so you can pick a model that fits your home.",
+        "replace_with": "Not sure how to choose a cordless vacuum cleaner? This guide explains suction, battery life, filtration and weight, so you can judge any model against your own home.",
+        "why": "Answers the focus prompt directly in the opening."
+      },
+      {
+        "number": 5,
+        "kind": "replace",
+        "label": "Suction paragraph",
+        "where": "Suction power section",
+        "current": "Most homes are well served by 100 to 150 air watts on hard floors, while thick carpet and pet hair benefit from more.",
+        "replace_with": "How much suction does a cordless vacuum need? Most homes are well served by 100 to 150 air watts on hard floors, while thick carpet, rugs and pet hair benefit from 150 air watts or more.",
+        "why": "Covers the suction fan-out and the floor type entity."
+      },
+      {
+        "number": 6,
+        "kind": "replace",
+        "label": "Battery paragraph",
+        "where": "Battery runtime section",
+        "current": "Runtime ranges from 20 to 60 minutes depending on the mode you use.",
+        "replace_with": "How long should a cordless vacuum battery last? Aim for at least 30 minutes in standard mode; runtime ranges from 20 to 60 minutes depending on the mode you use.",
+        "why": "Covers the battery fan-out."
+      },
+      {
+        "number": 7,
+        "kind": "replace",
+        "label": "Dustbin and weight",
+        "where": "Filtration and dustbin size section",
+        "current": "A larger dustbin means fewer trips to the bin, but it also adds weight.",
+        "replace_with": "A larger dustbin means fewer trips to the bin, but it also adds weight; most people find a stick vacuum under 3 kg comfortable to use one-handed.",
+        "why": "Covers the weight fan-out and dustbin capacity."
+      },
+      {
+        "number": 8,
+        "kind": "insert",
+        "label": "New section: pet hair",
+        "where": "After the filtration section",
+        "current": "",
+        "replace_with": "Cordless vs corded for pet hair: modern cordless models match corded suction for everyday pet hair, but a corded machine still wins on very long sessions. Look for a motorised brush head and a sealed HEPA filter.",
+        "why": "Covers the pet hair fan-out and HEPA filtration."
+      },
+      {
+        "number": 9,
+        "kind": "replace",
+        "label": "Link to collection",
+        "where": "Our top picks section",
+        "current": "We do not rank individual products here because stock and pricing change often.",
+        "replace_with": "Ready to compare? Shop our cordless vacuum cleaners to see current models, prices and availability.",
+        "why": "Hands the commercial query to the collection page."
+      },
+      {
+        "number": 10,
+        "kind": "replace",
+        "label": "Closing line",
+        "where": "Final thoughts section",
+        "current": "The best cordless vacuum cleaner is the one that suits your floors, your budget and your daily routine.",
+        "replace_with": "The right cordless vacuum cleaner is the one that suits your floors, your budget and your daily routine.",
+        "why": "Removes the repeat of the head term."
+      }
+    ],
+    "coverage": {
+      "entities": {
+        "suction power (air watts)": [
+          5
+        ],
+        "battery runtime": [
+          6
+        ],
+        "HEPA filtration": [
+          7,
+          8
+        ],
+        "dustbin capacity": [
+          7
+        ],
+        "floor type": [
+          5
+        ]
+      },
+      "fan_outs": {
+        "how much suction does a cordless vacuum need": [
+          5
+        ],
+        "how long should a cordless vacuum battery last": [
+          6
+        ],
+        "cordless vs corded vacuum for pet hair": [
+          8
+        ],
+        "what weight is comfortable for a stick vacuum": [
+          7
+        ]
+      }
+    }
+  }
+]

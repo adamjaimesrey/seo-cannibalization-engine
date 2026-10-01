@@ -1,0 +1,31 @@
+{
+  "briefs": [
+    {
+      "rank": 1,
+      "blog_url": "https://ecomusa.example/blog/post/best-cordless-vacuum-cleaner-guide",
+      "blog_slug": "best-cordless-vacuum-cleaner-guide",
+      "route": "refocus",
+      "commercial_url": "https://ecomusa.example/collections/cordless-vacuums",
+      "commercial_page_type": "plp",
+      "traffic_risk": 48.2,
+      "old_focus_kw": "best cordless vacuum cleaner",
+      "new_focus_kw": "how to choose a cordless vacuum cleaner",
+      "focus_prompt": "What should I look for when choosing a cordless vacuum cleaner for my home?",
+      "entities": [
+        "suction power (air watts)",
+        "battery runtime",
+        "HEPA filtration",
+        "dustbin capacity",
+        "floor type"
+      ],
+      "fan_outs": [
+        "how much suction does a cordless vacuum need",
+        "how long should a cordless vacuum battery last",
+        "cordless vs corded vacuum for pet hair",
+        "what weight is comfortable for a stick vacuum"
+      ],
+      "docx_link": "output/edit-lists/best-cordless-vacuum-cleaner-guide-edit-list.docx",
+      "semji_link": "https://semji.example/demo/best-cordless-vacuum-cleaner-guide"
+    }
+  ]
+}
