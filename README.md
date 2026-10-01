@@ -4,6 +4,8 @@
 
 Built with Claude Code for a consumer-appliance brand. The client's identity has been anonymized ("Ecommerce" on `ecomusa.example`), and **all data in this repository is synthetic**.
 
+**[▶ View the live demo dashboard](https://adamjaimesrey.github.io/seo-cannibalization-engine/)** (synthetic data, opens in your browser)
+
 ---
 
 ## The problem
